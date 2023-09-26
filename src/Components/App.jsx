@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SearchIcon from "../search.svg";
 import MovieCard from "./MovieCard";
 
-require("dotenv").config({ path: "vars/.env" });
+require("dotenv").config({ path: "../env" });
 
 const API_URL = `http://www.omdbapi.com?apikey=${process.env.API_KEY}`;
 
